@@ -346,7 +346,12 @@
                   </p>
                 </div>
                 <div class="contact__form">
-                  <form data-netlify="true" name="contact" method="POST">
+                  <form
+                    data-netlify="true"
+                    name="contact"
+                    data-netlify-recaptcha="true"
+                    method="POST"
+                  >
                     <div class="row">
                       <div class="col-xxl-6 col-xl-6 col-md-6">
                         <div class="contact__form-input">
@@ -404,6 +409,9 @@
                           >
                         </div>
                       </div> -->
+                      <div class="col-xxls-12">
+                        <div data-netlify-recaptcha="true"></div>
+                      </div>
                       <div class="col-xxl-12">
                         <div class="contact__btn">
                           <button type="submit" class="e-btn">
