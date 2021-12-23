@@ -1,48 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Educal – Online Learning and Education HTML5 Template
-    Author: Theme Pure
-    Support: basictheme@gmail.com
-    Description: Educal – Online Learning and Education HTML5 Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-/************ TABLE OF CONTENTS ***************
-
-    01. Common CSS
-    02. Header CSS
-    03. Hero CSS
-    04. Category CSS
-    05. Banner CSS
-    06. Course CSS
-    07. Events CSS
-    08. Price CSS
-    09. Cta CSS
-    10. Product CSS
-    11. Services CSS
-    12. About CSS
-    13. What CSS
-    14. Why CSS
-    15. Counter CSS
-    16. Testimonial CSS
-    17. Blog CSS
-    18. Slider CSS
-    19. Brand CSS
-    20. Teacher CSS
-    21. Page Title CSS
-    22. Contact CSS
-    23. Error CSS
-    24. Login CSS
-    00. Footer CSS
-
-
-**********************************************/
-/*
-
-
-*/
 /*----------------------------------------*/
 /*  01. Theme default CSS
 /*----------------------------------------*/
@@ -1884,6 +1841,7 @@ p {
 }
 .hero__title-2 {
   margin-bottom: 20px;
+  color: #fff;
 }
 .hero__content p {
   font-size: 22px;
@@ -1915,9 +1873,10 @@ p {
 .hero__content-2 h4 {
   font-size: 22px;
   margin-bottom: 0;
+  color: #fff;
 }
 .hero__content-2 p {
-  color: #53545b;
+  color: #ffffff;
   font-size: 16px;
   margin-bottom: 37px;
 }
@@ -2174,11 +2133,11 @@ p {
   opacity: 1;
 }
 .hero__search-input button i::before {
-  color: #8c8faa;
+  color: #0e1133;
 }
 .hero__search p {
   font-size: 16px;
-  color: #6d6e75;
+  color: #ffffff;
 }
 .hero__promotion {
   position: absolute !important;
@@ -5988,17 +5947,17 @@ p.checkout-coupon input[type="text"]:focus {
   height: 50px;
   line-height: 46px;
   text-align: center;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  /* -webkit-border-radius: 50%; */
+  /* -moz-border-radius: 50%; */
+  /* border-radius: 50%; */
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
   background: transparent;
   color: #ffffff;
 }
 .testimonial__slider .swiper-nav i:hover {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: #c21515;
+  /* background: #ffffff; */
+  /* border-color: #ffffff; */
+  color: #111;
 }
 .testimonial__slider .swiper-nav::after {
   display: none;
@@ -8716,34 +8675,25 @@ p.checkout-coupon input[type="text"]:focus {
 .banner-bg {
   width: 100%;
   height: 100vh;
-  background-size: 180%;
+  background-size: 130%;
   background-repeat: no-repeat;
   background-position: top;
   transition: background-size 5s;
 }
 
 .banner-bg-size-100 {
-  background-size: 120%;
+  background-size: 100%;
   transition: background-size 10s;
 }
 
 .banner-bg-1 {
-  background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/11/The-Magic-Islands-of-Lofoten-Norway-Europe-winter-morning-light-landscape-Desktop-HD-Wallpaper-For-PC-Tablet-And-Mobile-3840x2160-1920x1440.jpg);
+  background-image: url(../img/banner/banner-bg-1.jpg);
   /* transition: background-size 2s; */
 }
 
 .banner-bg-2 {
-  background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/11/The-Magic-Islands-of-Lofoten-Norway-Europe-winter-morning-light-landscape-Desktop-HD-Wallpaper-For-PC-Tablet-And-Mobile-3840x2160-1920x1440.jpg);
+  background-image: url(../img/banner/banner-bg-2.jpg);
 }
-
-.banner-bg-3 {
-  background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/11/The-Magic-Islands-of-Lofoten-Norway-Europe-winter-morning-light-landscape-Desktop-HD-Wallpaper-For-PC-Tablet-And-Mobile-3840x2160-1920x1440.jpg);
-}
-
-.banner-bg-4 {
-  background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/11/The-Magic-Islands-of-Lofoten-Norway-Europe-winter-morning-light-landscape-Desktop-HD-Wallpaper-For-PC-Tablet-And-Mobile-3840x2160-1920x1440.jpg);
-}
-
 .swiper-nav-wrapper {
   position: absolute;
   z-index: 100;
@@ -8936,4 +8886,11 @@ p.checkout-coupon input[type="text"]:focus {
   100% {
     transform: rotate(-360deg);
   }
+}
+
+.hero__content.hero__content-2 {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 3rem;
+  backdrop-filter: blur(15px);
+  box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
 }
